@@ -1,0 +1,9 @@
+repos:
+-   repo: local
+    hooks:
+    -   id: prefix-commit-type
+        name: check for prefix commit type
+        language: pygrep
+        entry: '\A(?!feat: )(?!fix: )(?!docs: )(?!style: )(?!refactor: )(?!perf: )(?!test: )(?!chore: )(?!build: )'
+        args: [--multiline]
+        stages: [commit-msg]

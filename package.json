@@ -1,7 +1,7 @@
 {
   "name": "@affinitic/volto-icon-selector-widget",
-  "version": "0.1.0",
-  "description": "volto-icon-selector-widget: Volto add-on",
+  "version": "0.0.0",
+  "description": "volto-icon-selector-widget: Volto add-on that add a widget for selecting an icon",
   "main": "src/index.js",
   "license": "MIT",
   "keywords": [
@@ -11,9 +11,16 @@
     "react"
   ],
   "scripts": {
-    "i18n": "rm -rf build/messages && NODE_ENV=production i18n --addon"
+    "i18n": "rm -rf build/messages && NODE_ENV=production i18n --addon",
+    "release": "release-it -c ./.release-it.json",
+    "release:major": "npm run release -i major",
+    "release:minor": "npm run release -i minor",
+    "release:patch": "npm run release -i patch",
+    "release:no-bump": "npm run release --no-increment"
   },
   "devDependencies": {
-    "@plone/scripts": "*"
+    "@plone/scripts": "*",
+    "@release-it/conventional-changelog": "5.1.1",
+    "release-it": "15.6.0"
   }
 }
