@@ -2,8 +2,16 @@ import _ from 'lodash';
 import React, { useState } from 'react';
 import { FormFieldWrapper } from '@plone/volto/components';
 import { Search, Icon } from 'semantic-ui-react';
+import { useIntl, defineMessages } from 'react-intl';
 import config from '@plone/volto/registry';
 import '../styles/style.less';
+
+const messages = defineMessages({
+  placeholder: {
+    id: 'Search...',
+    defaultMessage: 'Search...',
+  },
+});
 
 const initialState = {
   loading: false,
@@ -28,12 +36,13 @@ function reducer(state, action) {
 }
 
 const IconSelectorWidget = (props) => {
+  const intl = useIntl();
   const {
     id,
     value: blockValue,
     onChange,
     onBlur,
-    placeholder = 'Search...',
+    placeholder = intl.formatMessage(messages.placeholder),
   } = props;
 
   const inputId = `field-${id}`;
