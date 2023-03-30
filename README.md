@@ -1,7 +1,7 @@
 # volto-icon-selector-widget
 
 ## Feature
-This widget is used to select from a list of icon visualy with a popup and a search field.
+This widget is used to select visualy from a list of icon with a popup and a search field. The icon list is base on Font Awesome 6.4.0
 
 ### Settings
 You can configure the icon list and default search result renderer (ResultRenderer, CategoryRenderer and CategoryLayoutRenderer) in `config.settings.widget.icon_selector.iconList` and `config.settings.widget.icon_selector.defaultRenderer`
