@@ -1,10 +1,10 @@
 import _ from 'lodash';
 import React, { useState } from 'react';
 import { FormFieldWrapper } from '@plone/volto/components';
-import { Search, Icon } from 'semantic-ui-react';
+import { Search } from 'semantic-ui-react';
+import { Icon } from '@affinitic/volto-icon-selector-widget/components';
 import { useIntl, defineMessages } from 'react-intl';
 import config from '@plone/volto/registry';
-import '../styles/style.less';
 
 const messages = defineMessages({
   placeholder: {
