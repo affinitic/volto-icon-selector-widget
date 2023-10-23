@@ -23,7 +23,7 @@ You can configure the icon list and default search result renderer (ResultRender
 
 ## Getting started
 
-### Add volto-block-style to your Volto project
+### Add volto-icon-selector-widget to your Volto project
 
 1. Make sure you have a [Plone backend](https://plone.org/download) up-and-running at http://localhost:8080/Plone
 
