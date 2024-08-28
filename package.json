@@ -1,6 +1,6 @@
 {
   "name": "@affinitic/volto-icon-selector-widget",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "volto-icon-selector-widget: Volto add-on that add a widget for selecting an icon",
   "main": "src/index.js",
   "license": "MIT",

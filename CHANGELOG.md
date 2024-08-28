@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.2.1](https://github.com/affinitic/volto-icon-selector-widget/compare/0.2.0...0.2.1) (2024-08-28)
+
+
+### Bug Fixes
+
+* Fix formated name condition ([ac83ba9](https://github.com/affinitic/volto-icon-selector-widget/commit/ac83ba9c1c856da35d0cf6468c4422643b6abc77))
+
 ## [0.2.0](https://github.com/affinitic/volto-icon-selector-widget/compare/0.1.0...0.2.0) (2023-03-30)
 
 
